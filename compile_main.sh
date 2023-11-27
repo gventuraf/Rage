@@ -1,0 +1,1 @@
+clang++ -g -O3 -Wall -pedantic lexer.cpp parser.cpp codegen.cpp main.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core` -o rage
